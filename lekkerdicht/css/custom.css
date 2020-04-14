@@ -1,0 +1,93 @@
+/* .Kleurcodes{
+    color: #f2a444; achtergrond
+    color:  #
+} */
+
+
+
+
+#navbar{
+    background-color: #DFF2EB;
+    margin-bottom: 0px;
+}
+
+
+.logo{
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;
+}
+
+.nav-link{
+    color:  #808CBA;
+    font-size: 1.5em !important;
+
+}
+.container-fluid{
+    margin-bottom: 50px;
+}
+
+.container-fluid p, .container-fluid h2{
+    text-align: left;
+    margin: 50px 80px;
+   
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Assistant", sans-serif;
+    font-weight: 400;
+    line-height: 1.2em;
+    background-color: #DFF2EB;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url(../media/profiel_sky.png);
+    min-height: 100%;  
+}
+
+.pimg2{
+    background-image: url(../media/profiel.jpg);
+    min-height: 400px;  
+}
+
+.pimg3{
+    background-image: url(../media/profiel_sky.png);
+    min-height: 400px;
+}
+
+.ptext{
+    text-align: right;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    line-height: 2;
+    padding: 50px 100px;
+}
+
+.ptext h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;
+}
+
+#banner{
+    text-align: center;
+    background-color: #DFF2EB;
+    padding: 50px 80px;
+    margin-top: 2em;
+}
+
+#curriculum li{
+        list-style-type: none;
+        padding: 50px auto;
+}
