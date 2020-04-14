@@ -3,91 +3,97 @@
     color:  #
 } */
 
-
-
-
-#navbar{
-    background-color: #DFF2EB;
-    margin-bottom: 0px;
+#navbar {
+	background-color: #dff2eb;
+	margin-bottom: 0px;
 }
 
-
-.logo{
-    font-family: 'Great Vibes', cursive;
-    font-size: 64px;
+.logo {
+	font-family: 'Great Vibes', cursive;
+	font-size: 64px;
 }
 
-.nav-link{
-    color:  #808CBA;
-    font-size: 1.5em !important;
-
+.nav-link {
+	color: #808cba;
+	font-size: 1.5em !important;
 }
-.container-fluid{
-    margin-bottom: 50px;
-}
-
-.container-fluid p, .container-fluid h2{
-    text-align: left;
-    margin: 50px 80px;
-   
+.container-fluid {
+	margin-bottom: 50px;
 }
 
-body, html{
-    height: 100%;
-    margin: 0;
-    font-size: 16px;
-    font-family: "Assistant", sans-serif;
-    font-weight: 400;
-    line-height: 1.2em;
-    background-color: #DFF2EB;
+.container-fluid p,
+.container-fluid h2 {
+	text-align: left;
+	margin: 50px 80px;
 }
 
-.pimg1, .pimg2, .pimg3{
-    position: relative;
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Assistant", sans-serif;
+	font-weight: 400;
+	line-height: 1.2em;
+	background-color: #dff2eb;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-.pimg1{
-    background-image: url(../media/profiel_sky.png);
-    min-height: 100%;  
+.pimg1,
+.pimg2,
+.pimg3 {
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
-.pimg2{
-    background-image: url(../media/profiel.jpg);
-    min-height: 400px;  
+.pimg1 {
+	background-image: url(../media/profiel_sky.png);
+	min-height: 100%;
 }
 
-.pimg3{
-    background-image: url(../media/profiel_sky.png);
-    min-height: 400px;
+.pimg2 {
+	background-image: url(../media/profiel.jpg);
+	min-height: 400px;
 }
 
-.ptext{
-    text-align: right;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    font-size: x-large;
-    line-height: 2;
-    padding: 50px 100px;
+.pimg3 {
+	background-image: url(../media/profiel_sky.png);
+	min-height: 400px;
 }
 
-.ptext h2{
-    font-family: 'Great Vibes', cursive;
-    font-size: 64px;
+.ptext {
+	text-align: right;
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
+	font-size: x-large;
+	line-height: 2;
+	padding: 50px 100px;
 }
 
-#banner{
-    text-align: center;
-    background-color: #DFF2EB;
-    padding: 50px 80px;
-    margin-top: 2em;
+.ptext h2 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 64px;
 }
 
-#curriculum li{
-        list-style-type: none;
-        padding: 50px auto;
+#banner {
+	text-align: center;
+	background-color: #dff2eb;
+	padding: 50px 80px;
+	margin-top: 2em;
+}
+
+#curriculum li {
+	list-style-type: none;
+	padding: 50px auto;
+}
+
+#contactformulier {
+	padding: 0;
+	margin: 0;
 }
