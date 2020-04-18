@@ -71,6 +71,9 @@ p {
 	background: #fffeba;
 	color: #333;
 	overflow: auto;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 #navbar a {
@@ -143,4 +146,8 @@ p {
 #over-mij .info-content {
 	float: right;
 	width: 50%;
+	height: 100%;
+	text-align: center;
+	padding: 50px 30px;
+	overflow: hidden;
 }
