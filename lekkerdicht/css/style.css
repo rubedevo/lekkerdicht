@@ -105,15 +105,15 @@ p {
 /* Showcase */
 
 #showcase {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url(../media/profiel_sky.png) no-repeat center top/cover;
-	height: 600px;
+	height: 900px;
 }
 
 #showcase .showcase-content {
 	color: white;
 	text-align: center;
-	padding-top: 150px;
+	padding-top: 190px;
 }
 
 #showcase .showcase-content h1 {
@@ -134,10 +134,11 @@ p {
 }
 
 #over-mij .info-img {
-	background: url('../media/profiel.jpg')no-repeat;
-	float: left;
+	background: url(../media/profiel.jpg) no-repeat;
+	background-size: 100% 100%;
+	float:left;
 	min-height: 100%;
-	width: 50%;
+	width: 30%;
 }
 
 #over-mij .info-content {
