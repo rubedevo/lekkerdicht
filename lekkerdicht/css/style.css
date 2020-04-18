@@ -6,6 +6,43 @@
 	box-sizing: border-box;
 }
 
+/* Utility Class */
+
+.container {
+	margin: auto;
+	max-width: 1100px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.text-primary {
+	color: #ffbd00;
+}
+
+.lead {
+	font-size: 18px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 18px;
+	color: white;
+	background: #333;
+	padding: 13px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.btn:hover {
+	color: #333;
+	background: #ffbd00;
+}
+
+.btn-light {
+	background: #f4f4f4;
+	color: #333;
+}
+
 /* Main Styling */
 body,
 html {
@@ -60,6 +97,50 @@ p {
 	text-align: center;
 }
 
-#navbar ul li a:hover {
+#navbar ul li a:hover,
+#navbar ul li a.current {
 	background: #ffbd00;
+}
+
+/* Showcase */
+
+#showcase {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url(../media/profiel_sky.png) no-repeat center top/cover;
+	height: 600px;
+}
+
+#showcase .showcase-content {
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+}
+
+#showcase .showcase-content h1 {
+	font-size: 90px;
+	line-height: 1.2em;
+	font-family: 'Great Vibes', sans-serif;
+}
+
+#showcase .showcase-content p {
+	padding-bottom: 20px;
+	line-height: 1.7em;
+}
+
+/* Home-info */
+
+#over-mij {
+	height: 400px;
+}
+
+#over-mij .info-img {
+	background: url('../media/profiel.jpg')no-repeat;
+	float: left;
+	min-height: 100%;
+	width: 50%;
+}
+
+#over-mij .info-content {
+	float: right;
+	width: 50%;
 }

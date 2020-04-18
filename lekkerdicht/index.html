@@ -17,33 +17,39 @@
 <header>
     
     <nav id="navbar">
-        <a  class="logo" href="index.html">
-        <img src="media/logo" alt="Hartje" width="30" height="30">
-        </a>
-        <ul>
-            <li><a href="#aanbod">Aanbod</a></li>
-            <li><a href="#overmij">Over mij</a></li>
-            <li><a href="/voorwaarden.html">Voorwaarden</a></li>
-            <li><a href="#contactformulier">Contact</a></li>
-            </ul>
+        <div class="container">
+
+            <a  class="logo" href="index.html">
+            <img src="media/logo" alt="Hartje" width="30" height="30">
+            </a>
+            <ul>
+                <li><a href="#home" class="current">Home</a></li>
+                <li><a href="#aanbod">Aanbod</a></li>
+                <li><a href="#overmij">Over mij</a></li>
+                <li><a href="/voorwaarden.html">Voorwaarden</a></li>
+                <li><a href="#contactformulier">Contact</a></li>
+                </ul>
+        </div>
     </nav>
 
 
-    <!-- Banner met call to action/social media knoppen -->
+    <!-- SHowcase -->
     
-    <div>
+    <div id="showcase"> 
         <div class="container">
-            <h1>Lekker dicht</h1>
-            <h2>draagconsulent</h2>
-            <p class="lead">Ik help je met al je vragen rond draagsystemen voor je kindje.</p>
-            <a class=" btn" href="#">Ik wil een afspraak maken</a>
+            <div class="showcase-content">
+                <h1><span class="text-primary">Lekker </span> dicht</h1>
+                <p class="lead">Ik help je met al je vragen rond draagsystemen voor je kindje.</p>
+                <a class=" btn" href="#contact">Ik wil een afspraak maken</a>
+
+            </div>
         </div>
     </div>
     </header>
 
     <!-- Parallax-effect -->
     
-    <div class="pimg1">
+    <!-- <div class="pimg1">
         <div class="ptext">
             <span class="border">
                 <h2>Dragen</h2>
@@ -51,26 +57,31 @@
                 <p>bevordert de gezonde ontwikkeling van de baby.</p>
             </span>
         </div>
-    </div>
+    </div> -->
 
     
-<section>
-    <!--SECTIE 2: Over mij-->
 
-    <div id="overmij" class="container">
-        <h2>Over mij</h2>
-        <p>Mijn naam is Isabel Langenaekens en ik ben kinesitherapeut, draagconsulent en in de eerste plaats mama van een fantastisch zoontje. 
-        <p>In de zomer van 2019 is hij ter wereld gekomen op een manier die voor hem traumatisch was. De eerste maanden was hij dan ook huilerig en had hij duidelijk last van huidhonger. 
-            Zo heb ik het dragen ontdekt. Dat was namelijk de enige manier om hem te kalmeren.</p>
+    <!--SECTIE: Over mij-->
 
-        <p>Al snel kwam ik erachter dat er meer voordelen zijn aan dragen dan je zou denken. Het is goed voor drager en kind: biologisch, sociaal, emotioneel, motorisch, … Kortom: alleen maar voordelen!
-        Ik wil mijn liefde voor het dragen dan ook doorgeven aan zoveel mogelijk jonge ouders, zodat ook zij en hun kindje optimaal van die connectie kunnen genieten.</p>
-            
-        <p>Bij mij kan je terecht voor een draagconsult dat zich focust op een hechte verbinding op een verantwoorde manier. 
-        Ik sta garant voor een professionele, geduldige begeleiding met de glimlach, waar je met al je vragen terecht kan.</p>
-    </div>
+    <section id="over-mij" class="bg-dark" >
+        <div class="info-img"></div>
+        <div class="info-content">
 
-</section>
+            <h2>Mijn <span class="text-primary">Verhaal</span></h2>
+            <p>Mijn naam is Isabel Langenaekens en ik ben kinesitherapeut, draagconsulent en in de eerste plaats mama van een fantastisch zoontje. 
+            <p>In de zomer van 2019 is hij ter wereld gekomen op een manier die voor hem traumatisch was. De eerste maanden was hij dan ook huilerig en had hij duidelijk last van huidhonger. 
+                Zo heb ik het dragen ontdekt. Dat was namelijk de enige manier om hem te kalmeren.</p>
+    
+            <p>Al snel kwam ik erachter dat er meer voordelen zijn aan dragen dan je zou denken. Het is goed voor drager en kind: biologisch, sociaal, emotioneel, motorisch, … Kortom: alleen maar voordelen!
+            Ik wil mijn liefde voor het dragen dan ook doorgeven aan zoveel mogelijk jonge ouders, zodat ook zij en hun kindje optimaal van die connectie kunnen genieten.</p>
+                
+            <p>Bij mij kan je terecht voor een draagconsult dat zich focust op een hechte verbinding op een verantwoorde manier. 
+            Ik sta garant voor een professionele, geduldige begeleiding met de glimlach, waar je met al je vragen terecht kan.</p>
+            <a href="" class="btn btn-light">Meer weten</a>
+        </div>
+    </section>
+
+
 
     <!-- Parallax-effect -->
 
@@ -86,7 +97,7 @@
 
     <!-- SECTIE: Curriculum -->
 
-    <div class="container">
+    <div >
         <ul id="curriculum">
             <li><h2>Mijn Curriculum</h2></li>
             <li>Master in de revalidatiewetenschappen en kinesitherapie (UGent, 2016)</li>
@@ -103,7 +114,7 @@
 
     <!-- SECTIE 3: Aanbod -->
 
-    <div id="aanbod" class="container">
+    <div id="aanbod" >
         <h2>Mijn aanbod als draagconsulent</h2> 
         <div>
                 <div>
@@ -164,7 +175,7 @@
 
     <!-- SECTIE 4: Contactformulier -->
 
-    <div id="contactformulier" class="container">
+    <div id="contactformulier" >
         <h2>Contacteer mij</h2>
         <form action="">
             <div >
