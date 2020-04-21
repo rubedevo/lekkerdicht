@@ -43,6 +43,21 @@
 	color: #333;
 }
 
+.pimg1,
+.pimg2,
+.pimg3 {
+	text-align: center;
+	padding: 30px;
+	background: #c7d9d2;
+	clear: both;
+}
+
+.ptext h2 {
+	font-size: 60px;
+	font-family: 'great vibes', sans-serif;
+	margin: auto;
+}
+
 /* Main Styling */
 body,
 html {
@@ -58,7 +73,7 @@ a {
 h1,
 h2,
 h3 {
-	padding-bottom: 20px;
+	padding: 20px 0px;
 }
 
 p {
@@ -82,7 +97,8 @@ p {
 
 #navbar .logo {
 	float: left;
-	padding-top: 20px;
+	font-family: 'great vibes', sans-serif;
+	font-size: 35px;
 }
 
 #navbar ul {
@@ -108,7 +124,7 @@ p {
 /* Showcase */
 
 #showcase {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
 		url(../media/profiel_sky.png) no-repeat center top/cover;
 	height: 900px;
 }
@@ -116,11 +132,11 @@ p {
 #showcase .showcase-content {
 	color: white;
 	text-align: center;
-	padding-top: 190px;
+	padding-top: 140px;
 }
 
 #showcase .showcase-content h1 {
-	font-size: 90px;
+	font-size: 140px;
 	line-height: 1.2em;
 	font-family: 'Great Vibes', sans-serif;
 }
@@ -133,18 +149,23 @@ p {
 /* Home-info */
 
 #over-mij {
-	height: 400px;
+	height: 800px;
+	background: #fffeba;
+	overflow: hidden;
 }
 
 #over-mij .info-img {
-	background: url(../media/profiel.jpg) no-repeat;
-	background-size: 100% 100%;
-	float:left;
-	min-height: 100%;
-	width: 30%;
+	max-width: 50%;
+	float: left;
+	margin: 150px auto;
+	display: block;
+	border-radius: 20px;
 }
 
 #over-mij .info-content {
+	max-width: 50%;
+	min-height: fit-content;
+	text-align: center;
 	float: right;
 	width: 50%;
 	height: 100%;
