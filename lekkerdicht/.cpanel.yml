@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp voorwaarden.html $DEPLOYPATH
+    - /bin/cp -R CSS $DEPLOYPATH
+    - /bin/cp -R media $DEPLOYPATH
