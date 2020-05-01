@@ -19,6 +19,11 @@
 	color: #ffbd00;
 }
 
+.bg-main {
+	background: #fffeba;
+	overflow: hidden;
+}
+
 .lead {
 	font-size: 18px;
 }
@@ -78,6 +83,10 @@ h3 {
 
 p {
 	margin: 10px 0;
+}
+
+.content {
+	padding-top: 20px;
 }
 
 /* Navbar */
@@ -157,9 +166,10 @@ p {
 #over-mij .info-img {
 	max-width: 50%;
 	float: left;
-	margin: 150px auto;
+	margin: 50px auto;
 	display: block;
 	border-radius: 20px;
+	padding-bottom: 50px;
 }
 
 #over-mij .info-content {
@@ -172,4 +182,56 @@ p {
 	text-align: center;
 	padding: 50px 30px;
 	overflow: hidden;
+}
+
+/* Contact */
+
+#contactformulier {
+	text-align: center;
+}
+
+/* Aanbod */
+
+#aanbod {
+	background: #fffeba;
+	overflow: hidden;
+}
+
+.service {
+	max-width: 33%;
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+.service span {
+	text-decoration: solid;
+}
+
+/* voorwaarden */
+#voorwaarden {
+	padding-top: 50px;
+	text-align: center;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+}
+
+footer ul {
+	max-width: 100%;
+}
+
+footer ul li {
+	float: left;
+	list-style-type: none;
+	text-align: center;
+	padding: 0 2rem;
+}
+
+footer span {
+	float: right;
+	padding-right: 2rem;
 }
