@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rubedevo/lekkerdicht
+    - export DEPLOYPATH=/home/mrjrbzrhwqsa/repo/lekkerdicht
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp voorwaarden.html $DEPLOYPATH
     - /bin/cp -R CSS $DEPLOYPATH
