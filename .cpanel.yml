@@ -6,3 +6,4 @@ deployment:
     - /bin/cp voorwaarden.html $DEPLOYPATH
     - /bin/cp -R CSS $DEPLOYPATH
     - /bin/cp -R media $DEPLOYPATH
+    - /bin/cp -R lekkerdicht $DEPLOYPATH
