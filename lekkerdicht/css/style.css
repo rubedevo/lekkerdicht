@@ -1,100 +1,41 @@
 /* RESET */
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-
-/* Utility Class */
-
-.container {
-	margin: auto;
-	max-width: 1100px;
-	overflow: auto;
-	padding: 0 20px;
-}
-
-.text-primary {
-	color: #a4b3ad;
-}
-
-.bg-main {
-	background: #c7d9d2;
-	overflow: hidden;
-}
-
-.lead {
-	font-size: 18px;
-}
-
-.btn {
-	display: inline-block;
-	font-size: 18px;
-	color: white;
-	background: #333;
-	padding: 13px 20px;
-	border: none;
-	cursor: pointer;
-}
-
-.btn:hover {
-	color: #333;
-	background: #a4b3ad;
-}
-
-.btn-light,
-.bg-light {
-	background: #f4f4f4;
-	color: #333;
-}
-
-.bg-dark {
-	background: #333;
-	color: #f4f4f4;
-}
-
-.pimg1,
-.pimg2,
-.pimg3 {
-	text-align: center;
-	padding: 30px;
-	background: #c7d9d2;
-	clear: both;
-}
-
-.ptext h2 {
-	font-size: 60px;
-	font-family: 'great vibes', sans-serif;
-	margin: auto;
-}
 
 /* Main Styling */
 body,
 html {
 	font-family: 'lato', sans-serif;
 	line-height: 1.7;
+	background: #fff;
+	color: #333;
 }
 
-a {
+ul{
+	list-style: none;
+}
+
+a{
 	color: #6a736f;
 	text-decoration: none;
 }
 
 h1,
 h2,
-h3 {
-	padding: 20px 0px;
+{
+	font-weight: 300;
+	line-height: 1.2;
 }
 
 p {
 	margin: 10px 0;
 }
 
-.content {
-	padding-top: 20px;
+img{
+	width: 100%;
 }
-
 /* Navbar */
 
 #navbar {
@@ -141,13 +82,19 @@ p {
 #showcase {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
 		url(../media/profiel_sky.png) no-repeat center top/cover;
-	height: 900px;
+	height: 100vh;
+	position: relative;
+	
 }
 
 #showcase .showcase-content {
-	color: white;
-	text-align: center;
-	padding-top: 140px;
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	justify-content: center;
+	color: #f4f4f4;
+	height: 100%;
+	
 }
 
 #showcase .showcase-content h1 {
@@ -165,27 +112,16 @@ p {
 
 #over-mij {
 	height: 800px;
+	display: flex;
 }
 
 #over-mij .info-img {
-	max-width: 50%;
-	float: left;
-	margin: 50px auto;
-	display: block;
-	border-radius: 20px;
-	padding-bottom: 50px;
+	background: url(../media/profiel.jpg);
 }
 
 #over-mij .info-content {
-	max-width: 50%;
-	min-height: fit-content;
-	text-align: center;
-	float: right;
-	width: 50%;
-	height: 100%;
-	text-align: center;
-	padding: 50px 30px;
-	overflow: hidden;
+	
+	
 }
 
 /* Contact */
