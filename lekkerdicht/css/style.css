@@ -16,11 +16,11 @@
 }
 
 .text-primary {
-	color: #ffbd00;
+	color: #a4b3ad;
 }
 
 .bg-main {
-	background: #fffeba;
+	background: #c7d9d2;
 	overflow: hidden;
 }
 
@@ -40,12 +40,18 @@
 
 .btn:hover {
 	color: #333;
-	background: #ffbd00;
+	background: #a4b3ad;
 }
 
-.btn-light {
+.btn-light,
+.bg-light {
 	background: #f4f4f4;
 	color: #333;
+}
+
+.bg-dark {
+	background: #333;
+	color: #f4f4f4;
 }
 
 .pimg1,
@@ -92,8 +98,8 @@ p {
 /* Navbar */
 
 #navbar {
-	background: #fffeba;
-	color: #333;
+	background: #c7d9d2;
+	color: #6a736f;
 	overflow: auto;
 	position: fixed;
 	top: 0;
@@ -101,7 +107,7 @@ p {
 }
 
 #navbar a {
-	color: #333;
+	color: #6a736f;
 }
 
 #navbar .logo {
@@ -127,7 +133,7 @@ p {
 
 #navbar ul li a:hover,
 #navbar ul li a.current {
-	background: #ffbd00;
+	background: #a4b3ad;
 }
 
 /* Showcase */
@@ -159,8 +165,6 @@ p {
 
 #over-mij {
 	height: 800px;
-	background: #fffeba;
-	overflow: hidden;
 }
 
 #over-mij .info-img {
@@ -191,11 +195,6 @@ p {
 }
 
 /* Aanbod */
-
-#aanbod {
-	background: #fffeba;
-	overflow: hidden;
-}
 
 .service {
 	max-width: 33%;
