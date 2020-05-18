@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
 
 /* Main Styling */
 body,
@@ -35,94 +36,122 @@ p {
 
 img{
 	width: 100%;
+
 }
 /* Navbar */
 
-#navbar {
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	background: #c7d9d2;
 	color: #6a736f;
-	overflow: auto;
-	position: fixed;
-	top: 0;
+	opacity: 0.9;
 	width: 100%;
+	position: fixed;
+	top: 0px;
+	height: 70px;
+	padding: 0 30px;
+
 }
 
-#navbar a {
+.navbar a {
 	color: #6a736f;
+	padding: 10px 20px;
+	margin: 0 5px;
 }
 
-#navbar .logo {
+.navbar .logo {
 	float: left;
 	font-family: 'great vibes', sans-serif;
 	font-size: 35px;
 }
 
-#navbar ul {
-	float: right;
+.navbar ul {
+	display: flex;
+
 	list-style: none;
 }
 
-#navbar ul li {
-	float: left;
+.navbar ul li a:hover,
+.navbar ul li a.current {
+	border-bottom: #a4b3ad 2px solid;
 }
 
-#navbar ul li a {
-	display: block;
-	padding: 20px;
-	text-align: center;
+.navbar .logo{
+	font-weight: 400;
 }
 
-#navbar ul li a:hover,
-#navbar ul li a.current {
-	background: #a4b3ad;
-}
+/* Header */
 
-/* Showcase */
-
-#showcase {
+.hero {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
 		url(../media/profiel_sky.png) no-repeat center top/cover;
 	height: 100vh;
 	position: relative;
+	color: #f4f4f4;
 	
 }
 
-#showcase .showcase-content {
+.hero .content {
 	display: flex;
 	flex-direction: column;	
 	align-items: center;
 	justify-content: center;
 	color: #f4f4f4;
 	height: 100%;
+	padding: 0 20px;
 	
 }
 
-#showcase .showcase-content h1 {
+.hero .content h1 {
 	font-size: 140px;
-	line-height: 1.2em;
 	font-family: 'Great Vibes', sans-serif;
 }
 
-#showcase .showcase-content p {
+.hero .content p {
 	padding-bottom: 20px;
 	line-height: 1.7em;
+	font-size: 23px;
+	max-width: 600px;
+	margin: 20px 0 30px;
 }
 
-/* Home-info */
+.hero::before{
+	content: '';
+	position: absolute;
+	top: 0;µ
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:	rgba(0,0,0,0.2);
 
-#over-mij {
-	height: 800px;
-	display: flex;
 }
 
-#over-mij .info-img {
-	background: url(../media/profiel.jpg);
+.hero *{
+	z-index: 10;
 }
 
-#over-mij .info-content {
-	
-	
+/* ICONS */
+
+.icons{
+	padding: 30px;
 }
+
+.icons h3{
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.icons i{
+	background-color: #a4b3ad;
+	color: #fff;
+	padding: 1rem;
+	border-radius: 50%;
+	margin-bottom: 15px;
+}
+
+
 
 /* Contact */
 
@@ -130,18 +159,6 @@ img{
 	text-align: center;
 }
 
-/* Aanbod */
-
-.service {
-	max-width: 33%;
-	display: block;
-	float: left;
-	text-align: center;
-}
-
-.service span {
-	text-decoration: solid;
-}
 
 /* voorwaarden */
 #voorwaarden {
@@ -170,3 +187,78 @@ footer span {
 	float: right;
 	padding-right: 2rem;
 }
+
+/* Contactform */
+
+.callback-form{
+	width: 100%;
+	padding: 20px 0;
+}
+
+.callback-form label{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.callback-form .form-control{
+	margin-bottom: 15px;
+}
+
+.callback-form input{
+	width: 100%;
+	padding:4px;
+	height: 40px;
+	border: #fff 1px solid;
+}
+
+.callback-form input:focus{
+	outline-color: #c7d9d2;
+}
+
+.callback-form .btn{
+	padding: 12px 0px;
+	margin-top: 20px;
+}
+
+/* Footer */
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+
+}
+
+.footer a:hover{
+	color: #a4b3ad;
+}
+
+.footer a{
+	color: #fff;
+}
+
+
+/* mobile */
+
+@media(max-width: 768px){
+	.navbar{
+		flex-direction: column;
+		height: 120px;
+		padding: 20px;
+		
+	}
+	.navbar a{
+		padding: 10px 10px;
+		margin: 3px 3px;
+	}
+	.flex-items{
+		flex-direction: column;
+	}
+	.flex-columns .column{
+		flex: 100%;
+		max-width: 100%;
+	}
+}	
