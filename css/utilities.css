@@ -51,13 +51,14 @@
 .flex-items {
 	display: flex;
 	text-align: center;
-	align-items: center;
-	justify-content: center;
+	align-items: flex-start;
+	justify-content: space-evenly;
 	height: 100%;
 }
 
 .flex-items > div {
 	padding: 20px;
+	max-width: 33%;
 }
 
 /* Columns */
