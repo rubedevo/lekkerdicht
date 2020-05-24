@@ -125,8 +125,15 @@ img {
 .hero * {
 	z-index: 10;
 }
+/* Over Mij */
 
+#over-mij {
+	padding-top: 70px;
+}
 /* ICONS */
+#aanbod {
+	padding-top: 70px;
+}
 
 .icons {
 	padding: 30px;
