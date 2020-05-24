@@ -91,11 +91,12 @@
                 <div>
                     <h3 >Draagconsult</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptas.</p>
+
                     <!-- <p>In een individueel draagconsult krijg je de nodige informatie over de veiligheid, ademhaling en positie van je baby, aangepast aan zijn/haar psychomotorische ontwikkeling en noden op dit moment. Je leert ook de gekozen draagtechniek correct aan. Dat kan een buik-, heup- of rugknoop zijn met de draagdoek, of een techniek met een ander draagsysteem (ringsling, mei tai, half buckle, draagzak). Er wordt hierbij geluisterd naar je vragen en rekening gehouden met je wensen, zodat we een systeem en techniek vinden die bij jou en je kindje past.
                     Het aanleren doen we aan de hand van een uitgebreide demonstratie: een visuele en gestructureerde uitleg waarin de onderliggende principes duidelijk worden, zodat je echt begrijpt hoe het werkt. Daarna oefenen met speciale draagpoppen en focussen we op jouw individuele aandachtspunten. Pas wanneer je de techniek goed onder de knie hebt oefenen we met je kindje. We luisteren hierbij naar de signalen van je baby en volgen steeds zijn/haar tempo. Je leert hoe je kan voelen en zien hoe de positie van je baby is en hoe je dit indien nodig kan corrigeren.</p>
                     <!-- <p>Een individueel draagconsult duurt gemiddeld anderhalf uur (eventuele troost- of borstvoedingspauzes inbegrepen). Je kindje is welkom, maar breng dan liefst ook een oppas mee. De knooptechniek leren vraagt namelijk best wel concentratie.</p>
                     <p>Prijs: € 90</p>
-                    <p>begonnen kwartier wordt € 15 extra aangerekend.</p>  --> -->
+                    <p>begonnen kwartier wordt € 15 extra aangerekend.</p>  -->
                 </div>
             </div>
 
@@ -140,22 +141,25 @@
         <div class="column">
             <div class="column-2">
                 <h2>Vraag draagadvies aan</h2>
-                <form action="" class="callback-form">
+                <form action="POST" action="/contactform.php" class="callback-form">
+                    <input type="hidden" name="subject" value="Submission" />
                     <div class="form-control">
                         <label for="name"></label>
                         <input type="text" name="name" id="name" placeholder="Vul uw naam in">
                     </div>
-                    <form action="" class="callback-form">
-                        <div class="form-control">
-                            <label for="email"></label>
-                            <input type="email" name="email" id="email" placeholder="Vul uw mailadres in">
-                        </div>
-                        <form action="" class="callback-form">
-                            <div class="form-control">
-                                <label for="phone"></label>
-                                <input type="text" name="phone" id="phone" placeholder="Vul uw telefoonnummer in">
-                            </div>
-                        <input type="submit" value="Versturen" id="submit" class="btn">
+                    <div class="form-control">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Vul uw mailadres in">
+                    </div>
+                    <div class="form-control">
+                         <label for="message"></label>
+                         <textarea type="text" name="message" id="message" placeholder="Uw bericht">
+                         </textarea>
+                    </div>
+                    <input type="submit" value="Versturen" id="submit" class="btn">
+                    <input type="hidden" name="form_order" value="alpha"/>
+                    <input type="hidden" name="form_delivery" value="digest"/>
+                    <input type="hidden" name="form_format" value="html"/>
                 </form>
             </div>
         </div>
@@ -168,7 +172,6 @@
 </section>
 
     <!-- SECTIE 5: Footer -->
-    <div class="clr"></div>
 </main>
 
 <footer class="footer bg-light">

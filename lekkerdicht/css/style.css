@@ -14,18 +14,17 @@ html {
 	color: #333;
 }
 
-ul{
+ul {
 	list-style: none;
 }
 
-a{
+a {
 	color: #6a736f;
 	text-decoration: none;
 }
 
 h1,
-h2,
-{
+h2 {
 	font-weight: 300;
 	line-height: 1.2;
 }
@@ -34,9 +33,8 @@ p {
 	margin: 10px 0;
 }
 
-img{
+img {
 	width: 100%;
-
 }
 /* Navbar */
 
@@ -52,7 +50,6 @@ img{
 	top: 0px;
 	height: 70px;
 	padding: 0 30px;
-
 }
 
 .navbar a {
@@ -78,7 +75,7 @@ img{
 	border-bottom: #a4b3ad 2px solid;
 }
 
-.navbar .logo{
+.navbar .logo {
 	font-weight: 400;
 }
 
@@ -90,18 +87,16 @@ img{
 	height: 100vh;
 	position: relative;
 	color: #f4f4f4;
-	
 }
 
 .hero .content {
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	color: #f4f4f4;
 	height: 100%;
 	padding: 0 20px;
-	
 }
 
 .hero .content h1 {
@@ -117,33 +112,32 @@ img{
 	margin: 20px 0 30px;
 }
 
-.hero::before{
+.hero::before {
 	content: '';
 	position: absolute;
-	top: 0;µ
-	left: 0;
+	top: 0;
+	µ: 0;
 	width: 100%;
 	height: 100%;
-	background:	rgba(0,0,0,0.2);
-
+	background: rgba(0, 0, 0, 0.2);
 }
 
-.hero *{
+.hero * {
 	z-index: 10;
 }
 
 /* ICONS */
 
-.icons{
+.icons {
 	padding: 30px;
 }
 
-.icons h3{
+.icons h3 {
 	font-weight: bold;
 	margin-bottom: 15px;
 }
 
-.icons i{
+.icons i {
 	background-color: #a4b3ad;
 	color: #fff;
 	padding: 1rem;
@@ -151,14 +145,11 @@ img{
 	margin-bottom: 15px;
 }
 
-
-
 /* Contact */
 
 #contactformulier {
 	text-align: center;
 }
-
 
 /* voorwaarden */
 #voorwaarden {
@@ -190,75 +181,81 @@ footer span {
 
 /* Contactform */
 
-.callback-form{
+.callback-form {
 	width: 100%;
 	padding: 20px 0;
+	display: flex;
+	flex-direction: column;
 }
 
-.callback-form label{
-	display: block;
+.callback-form label {
 	margin-bottom: 5px;
 }
 
-.callback-form .form-control{
+.callback-form .form-control {
 	margin-bottom: 15px;
 }
 
-.callback-form input{
+.callback-form input {
 	width: 100%;
-	padding:4px;
+	padding: 4px;
 	height: 40px;
 	border: #fff 1px solid;
 }
 
-.callback-form input:focus{
+.callback-form input:focus,
+.callback-form textarea:focus {
 	outline-color: #c7d9d2;
 }
 
-.callback-form .btn{
+.callback-form textarea {
+	width: 100%;
+	height: 10rem;
+	font-family: 'lato', sans-serif;
+	line-height: 1.7;
+}
+
+.callback-form .btn {
 	padding: 12px 0px;
 	margin-top: 20px;
 }
 
 /* Footer */
 
-.footer{
+.footer {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
 	height: 200px;
-
 }
 
-.footer a:hover{
+.footer a:hover {
 	color: #a4b3ad;
 }
 
-.footer a{
+.footer a {
 	color: #fff;
 }
 
-
 /* mobile */
 
-@media(max-width: 768px){
-	.navbar{
+@media (max-width: 768px) {
+	.navbar {
 		flex-direction: column;
 		height: 120px;
 		padding: 20px;
-		
 	}
-	.navbar a{
+	.navbar a {
 		padding: 10px 10px;
 		margin: 3px 3px;
 	}
-	.flex-items{
+	.flex-items {
 		flex-direction: column;
 	}
-	.flex-columns .column{
+	.flex-columns .column {
 		flex: 100%;
 		max-width: 100%;
 	}
-}	
+}
