@@ -153,8 +153,9 @@ img {
 
 /* voorwaarden */
 #voorwaarden {
-	padding-top: 50px;
+	padding-top: 200px;
 	text-align: center;
+	height: 100vh;
 }
 
 /* Footer */
