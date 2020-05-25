@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mrjrbzrhwqsa/public_html/lekkerdicht/
+    - export DEPLOYPATH=/home/mrjrbzrhwqsa/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp praktisch.html $DEPLOYPATH
     - /bin/cp contactform.php $DEPLOYPATH
